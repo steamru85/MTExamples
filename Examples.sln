@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoadBalancing", "LoadBalancing\LoadBalancing.csproj", "{F7F754C7-EB75-4B3A-B5D1-73F92D76CBAE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MT", "MT\MT.csproj", "{B83D4456-3915-456F-A168-6451C71C5BE1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{8A8DC8EB-4EE9-4121-80F6-1695B275A298}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F7F754C7-EB75-4B3A-B5D1-73F92D76CBAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7F754C7-EB75-4B3A-B5D1-73F92D76CBAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7F754C7-EB75-4B3A-B5D1-73F92D76CBAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7F754C7-EB75-4B3A-B5D1-73F92D76CBAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B83D4456-3915-456F-A168-6451C71C5BE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B83D4456-3915-456F-A168-6451C71C5BE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B83D4456-3915-456F-A168-6451C71C5BE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B83D4456-3915-456F-A168-6451C71C5BE1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
