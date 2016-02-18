@@ -45,7 +45,7 @@ namespace LoadBalancing
                     Console.WriteLine("Сервер 2. {0}Файл {1} обработан за {2} мс. Потоков: {3} из 5. ThreadId - {4}", Environment.NewLine, msg.Num, msg.TimeToConvert, secondServerFilesCount, Thread.CurrentThread.ManagedThreadId);
                     secondServerFilesCount--;
                 }));
-                //prefetch=3. Сообщаем серверу очередей что мы готовы разбирать до пяти сообщений одновременно 
+                //prefetch=5. Сообщаем серверу очередей что мы готовы разбирать до пяти сообщений одновременно 
                 sbc.ReceiveFrom("rabbitmq://localhost/filesToConvert?prefetch=5");
             });
 
